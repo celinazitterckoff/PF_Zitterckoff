@@ -10,7 +10,7 @@ body{
     font-family: 'Palanquin', sans-serif;
     font-family: 'Raleway', sans-serif;
     /*background-image: radial-gradient(circle, #640231, #740b3b, #831546, #941d51, #a4265d, #a0255a, #9c2556, #982453, #7e1b41, #661231, #4e0a22, #370414);*/
-    color: rgb(210, 195, 215);
+    color: rgb(203, 161, 216);
 }
 .header{
     height: 30vh;
@@ -19,39 +19,21 @@ body{
     
     color: rgb(251, 250, 250);
 }
-.contenedorLogo{
-    
-    width: 45%;
-    display: inline-block;
-}
-
-.logo{
-    width: 30%;
-}
-
-.navegacion{
-    display: inline-block;
-    width: 70%;
-    text-align: left;
-    position: absolute;
-    right: 20px;
-    top: 25px;
-    
-}
-
-.listaItem{
-    list-style: none;
-    display: inline-block;
-    padding-left: 15px;
-    padding-top: 50px;
-}
 /*links anclas de navegacion*/
-.linkNav{
-    text-decoration: none;
-    color: #0d0d0d;
-    font-size: 1.5rem;
-    font-family: 'Raleway', sans-serif;
+.navbar{
+    background-color: rgb(251, 229, 238);
+    color: black;
 }
+
+
+.nav-link{
+    font-size: 1.5rem;
+    /*background-color: rgb(220, 181, 193);*/
+    font-family: 'Martel', serif;
+    font-weight: 500;
+    }
+    
+
 /*estilados del titulo principal del index*/
 .tituloPrincipal{
     width: 100%;
@@ -59,6 +41,8 @@ body{
     margin: 0 auto;
     text-align: center;
     background-color: rgb(149, 34, 92);
+
+
 }
 .contenedorH1{
     width: 0 auto;
@@ -66,37 +50,46 @@ body{
     font-size: 2rem;
     color: rgb(255, 254, 254);
     text-align: center;
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Martel', serif;
+
 }
 
 /*estilados del main del index*/
+.fondoMain{
+    background-color:rgb(149, 34, 92);
+}
 .main{
     background-color: rgb(251, 229, 238);
     color: rgb(1, 1, 1);
 }
-.subtituloUno{
-    margin-right: 800px;
-    margin-top: 50px;
-    font-family: 'Martel', serif;;
+
+.fotoIndex{
+    background-image: url(../assets/img/principl.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 60vh;
+    width: 100vh ;
+    margin-bottom: 5rem;
+}
+.textoIndex{
+    text-align: center;
+    font-family: 'Martel', serif;
 }
     
-.main h2{
-    text-align: center;
-    padding: 20px;
-}
-.main p{
-    font-size:20px;
-    display: inline-block;
-    text-align:justify;
-    margin-right: 100px;
-    margin-left: 200px;
-    width: 30%;
+.textoIndex{
+    height: 60vh;
+    width: 100vh;
+    background-color: rgb(149, 34, 92);
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5rem;
+
 }
 
-.imagenPrincipal{
-    display: inline-block;
-    width: 25%;
-}
 .contenedor{
     display: flex;
     margin: 0 auto;
@@ -119,12 +112,116 @@ body{
 h3{
     text-align: center;
     }
-
-.imagen img{
-    width: 380px;
-    height: 230px;
-    object-fit: cover;
+/*estilados de las cards*/
+.tarjetas{
+    margin-bottom: 4rem;
 }
+
+.card-group{
+    column-gap: 15px;
+}
+
+.card{
+    background-color:rgb(220, 181, 193) ;
+    border: 1px solid rgb(192, 121, 157);
+}
+
+.card-title{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:rgb(149, 34, 92) ;
+}
+.card-text{
+    text-align:center;
+}
+
+/*estilados de la pagina promociones*/
+.row{
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.izquierda{
+    background-image: url(../assets/img/tratam4.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 60vh;
+    width: 80vh;
+}
+
+.derecha{
+    height: 60vh;
+    width: 80vh;
+    background-color: rgb(220, 181, 193);
+    color: rgb(149, 34, 92);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgb(149, 34, 92);
+
+}
+.izquierda2{
+    background-image: url(../assets/img/promo3.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 60vh;
+    width: 80vh;
+
+}
+.derecha2{
+    height: 60vh;
+    width: 80vh;
+    background-color: rgb(220, 181, 193);
+    color: rgb(149, 34, 92);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgb(149, 34, 92);
+}
+.izquierda3{
+    background-image: url(../assets/img/promo4.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 60vh;
+    width: 80vh;
+
+}
+.derecha3{
+    height: 60vh;
+    width: 80vh;
+    background-color: rgb(220, 181, 193);
+    color: rgb(149, 34, 92);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgb(149, 34, 92);
+}
+.izquierda4{
+    background-image: url(../assets/img/promo5.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 60vh;
+    width: 80vh;
+}
+.derecha4{
+    height: 60vh;
+    width: 80vh;;
+    background-color: rgb(220, 181, 193);
+    color: rgb(149, 34, 92);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgb(149, 34, 92);
+}
+
 
 
 /*estilados de la galeria de la seccion catalogo*/
@@ -170,36 +267,46 @@ h3{
 
 .footer p{
     font-size: 1rem;
-    color: rgb(4, 4, 4);
+    color: rgb(251, 229, 238);
     position: relative;
     bottom: -60px;
     text-align: center;
 }
 
 .icon{
-    color:rgb(0, 0, 0);
-    font-size: 30px;
+    color: rgb(251, 229, 238);
+    font-size: 20px;
     position: relative;
     bottom: -65px;
 }
 
 /*estilado del main de la pagina servicios*/
 .contenedorServicios{
-    color: black;
+    background-color: rgb(251, 229, 238);
+    color: rgb(149, 34, 92);
 }
-
+.tituloServicios{
+    width: 100%;
+    height: 10vh;
+    margin: 0 auto;
+    text-align: center;
+}
 /*estilados del formulario de la pagina de contacto*/
+.padreContacto{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
 .formulario{
-    padding-top: 40px;
-    padding-left: 30px;
-    padding-bottom: 40px;
+    display: inline-block;
+    margin-bottom: 2rem;
 }
 
-.contenedorFormu{
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 20px;
-    width: 150px;
-    padding: 0;
-    margin: 0;
-    
+.mapa{
+    display: inline-block;
+    justify-content: center;
+    margin-top: 40px;
 }
+
+
+/*media queries*/

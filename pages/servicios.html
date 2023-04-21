@@ -14,50 +14,98 @@
 </head>
 
 <body>
-    <header class="header">
-        <div class="contenedorLogo">
-            <a href="../pages/servicios.html"><img class="logo" src="../assets/img/gb_logo.png" alt="logo"></a>
-        </div>
-        <nav class="navegacion">
-            <ul>
-                <li class="listaItem"><a class="linkNav" href="../index.html">Inicio</a></li>
-                <li class="listaItem"><a class="linkNav" href="#">Servicios</a></li>
-                <li class="listaItem"><a class="linkNav" href="../pages/catalogo.html">Catalogo</a></li>
-                <li class="listaItem"><a class="linkNav" href="../pages/promociones.html">Promociones</a></li>
-                <li class="listaItem"><a class="linkNav" href="../pages/contacto.html">Contacto</a></li>
-            </ul>
-        </nav>
-            
+    <div class="contenedorTodo">
+        <header class="header conteiner-fluid">
+            <div>
+                <nav class="navbar navbar-expand-lg navbar-light">
+                    <div class="container-fluid">
+                        <a class="navbar-brand" href="#">
+                            <img src="../assets/img/gb_logo.png" alt="logo salondb" width="150px">
+                        </a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNav">
+                            <ul class="navbar-nav w-100 justify-content-start">
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="../index.html">Nosotros</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Servicios</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="../pages/promociones.html">Promociones</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="../pages/galeria.html">Galeria</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="../pages/contacto.html">Contacto</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
         
+            </header>
+        
+            <main>
+                <section>
+                    <div class="tituloPrincipal">
+                        <h1 class="contenedorH1">Corte, color y mucho más: Descubre nuestros servicios de peluquería</h1> 
+                    </div>
+                </section>
+                <section>
+                    <div class="contenedorServicios">
+                        <h2 class="tituloServicios">Nuestros Servicios</h2>
+                    </div>
+                </section>
+        <!--falta darle forma-->
+                <div class="accordion accordion-flush" id="accordionFlushExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingOne">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                            Cortes
+                        </button>
+                        </h2>
+                    <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body"> Contamos  </div>
+                    </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                            Tratamientos Capilares
+                        </button>
+                        </h2>
+                    <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body"></div>
+                        </div>
+                        </div>
+                        <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                            Peinados
+                        </button>
+                        </h2>
+                        <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body"></div>
+                        </div>
+                    </div>
+                </div>
+            </main>
+        
+            <footer class="footer">
+                    <p>Contactanos</p>
+                    <a href="https://www.instagram.com/salon.de.belleza.gaby/" target="_blank"><i class="icon fab fa-instagram fa-bounce"></i></a>
+                    <a href="https://www.facebook.com/profile.php?id=100005384775027"><i class="icon fab fa-facebook fa-flip"></i></a>
+                    <a href=""><i class="icon fab fa-whatsapp fa-bounce"></i></a>
+                    <p class="footerParrafo">Todos los derechos reservados © </p>
+            </footer>
+            
+    </div>
 
-    </header>
-
-    <main>
-        <section>
-            <div class="tituloPrincipal">
-                <h1 class="contenedorH1">Corte, color y mucho más: Descubre nuestros servicios de peluquería</h1> 
-            </div>
-        </section>
-        <section>
-            <div class="contenedorServicios">
-                <h1>Nuestros Servicios</h1>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim cum placeat ex! A, perspiciatis maxime illo harum id, deserunt libero quod corrupti, laboriosam rerum illum? Officiis ipsum laudantium iusto. Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga qui quis beatae accusantium corporis incidunt maiores ipsum. Modi dolorem doloremque quis tempora nam sequi quam. Ad quidem molestias sit aut.</p>
-            </div>
-        </section>
-
-    </main>
-
-    <footer class="footer">
-        <br>
-            <p>Contactanos</p>
-            <a href="https://www.instagram.com/salon.de.belleza.gaby/" target="_blank"><i class="icon fab fa-instagram fa-bounce"></i></a>
-            <a href="https://www.facebook.com/profile.php?id=100005384775027"><i class="icon fab fa-facebook fa-flip"></i></a>
-            <a href=""><i class="icon fab fa-whatsapp fa-bounce"></i></a>
-            <p class="footerParrafo">Todos los derechos reservados © </p>
-            <br>
-            <br>
-    </footer>
-    
     <!--bootstrap js-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
