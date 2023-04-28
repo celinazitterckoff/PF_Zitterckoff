@@ -222,6 +222,20 @@ h3{
     border: 1px solid rgb(149, 34, 92);
 }
 
+/*estilados de la seccion servicios*/
+.accordion-button{
+    background-color: pink;
+    border: 1px solid black;
+    color: black;
+}
+
+.accordion-body{
+    background-color: rgb(184, 129, 138);
+    color: black;
+}
+
+
+
 
 
 /*estilados de la galeria de la seccion catalogo*/
