@@ -229,6 +229,46 @@ main .row .derecha4 {
   border: 1px solid rgb(149, 34, 92);
 }
 
+Main {
+  background-color: rgb(251, 229, 238);
+}
+Main .tituloPrincipal {
+  width: 100%;
+  height: 20vh;
+  margin: 0 auto;
+  text-align: center;
+  background-color: rgb(149, 34, 92);
+  color: white;
+}
+Main .tituloPrincipal .contenedorH1 {
+  width: 0 auto;
+  padding-top: 30px;
+  font-size: 2rem;
+  color: rgb(255, 254, 254);
+  text-align: center;
+  font-family: "Martel", serif;
+}
+Main .contenedorGaleria {
+  background-color: rgb(251, 229, 238);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+Main .contenedorGaleria .fotosCata {
+  width: 30%;
+  background-color: rgb(253, 253, 253);
+  /* border: 1px solid rgb(149, 34, 92);*/
+  text-align: center;
+  padding: 10px;
+}
+Main .contenedorGaleria .fotosCata img {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+}
+
 footer {
   height: 30vh;
   background-color: rgb(149, 34, 92);
