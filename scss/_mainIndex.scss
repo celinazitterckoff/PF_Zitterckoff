@@ -1,11 +1,11 @@
 Main{
-    background-color: rgb(251, 229, 238);
+    background-color: $colorDeFondo;
     .tituloPrincipal{
-    width: 100%;
+    width: $ancho;
     height: 20vh;
     margin: 0 auto;
     text-align: center;
-    background-color: rgb(149, 34, 92);
+    background-color:$colorPrincipal;
     color: white;
         .contenedorH1{
         width: 0 auto;
@@ -13,7 +13,7 @@ Main{
         font-size: 2rem;
         color: rgb(255, 254, 254);
         text-align: center;
-        font-family: 'Martel', serif;
+        font-family: $fuentePrincipal;
     }
     }
     .fondoMain{
@@ -21,7 +21,7 @@ Main{
         .textoIndex{
         text-align: center;
         font-size: 1rem;
-        font-family: 'Martel', serif;
+        font-family: $fuentePrincipal;
         height: 70vh;
         width: 100vh;
         color: black;
@@ -52,7 +52,7 @@ Main{
                 .card-title{
                 text-align: center;
                 font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-                color:rgb(149, 34, 92);
+                color:$colorPrincipal;
                 }
             }
             }
