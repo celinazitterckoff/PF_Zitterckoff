@@ -1,15 +1,3 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
-
-
-
-
-
-
-
-@import "_main"; 
-@import "_header";
 @import "_variables";
+@import "_header";
+@import "_mainIndex"; 
