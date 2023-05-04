@@ -73,4 +73,23 @@ Main .tarjetas .card-group .card .card-title {
   color: rgb(149, 34, 92);
 }
 
+footer {
+  height: 30vh;
+  background-color: rgb(149, 34, 92);
+  text-align: center;
+}
+footer .parrafoFooter {
+  font-size: 1rem;
+  color: rgb(251, 229, 238);
+  position: relative;
+  bottom: -60px;
+  text-align: center;
+}
+footer .icon {
+  color: rgb(240, 199, 216);
+  font-size: 30px;
+  position: relative;
+  bottom: -65px;
+}
+
 /*# sourceMappingURL=estilos.css.map */
