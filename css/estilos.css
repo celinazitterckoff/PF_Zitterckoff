@@ -269,6 +269,44 @@ Main .contenedorGaleria .fotosCata img {
   object-fit: cover;
 }
 
+Main {
+  background-color: rgb(251, 229, 238);
+}
+Main .tituloPrincipal {
+  width: 100%;
+  height: 20vh;
+  margin: 0 auto;
+  text-align: center;
+  background-color: rgb(149, 34, 92);
+  color: white;
+}
+Main .tituloPrincipal .contenedorH1 {
+  width: 0 auto;
+  padding-top: 30px;
+  font-size: 2rem;
+  color: rgb(255, 254, 254);
+  text-align: center;
+  font-family: "Martel", serif;
+}
+Main .padreContacto {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+Main .formulario {
+  display: inline-block;
+  margin-bottom: 2rem;
+}
+Main .formulario .btn {
+  background-color: rgb(252, 183, 215);
+  color: rgb(149, 34, 92);
+}
+Main .mapa {
+  display: inline-block;
+  justify-content: center;
+  margin-top: 40px;
+}
+
 footer {
   height: 30vh;
   background-color: rgb(149, 34, 92);

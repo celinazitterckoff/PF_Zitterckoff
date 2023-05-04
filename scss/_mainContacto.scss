@@ -1,0 +1,37 @@
+Main{
+    background-color: $colorDeFondo;
+    .tituloPrincipal{
+    width: $ancho;
+    height: 20vh;
+    margin: 0 auto;
+    text-align: center;
+    background-color:$colorPrincipal;
+    color: white;
+        .contenedorH1{
+        width: 0 auto;
+        padding-top: 30px;
+        font-size: 2rem;
+        color: rgb(255, 254, 254);
+        text-align: center;
+        font-family: $fuentePrincipal;
+    }
+    }
+    .padreContacto{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .formulario{
+        display: inline-block;
+        margin-bottom: 2rem;
+        .btn{
+            background-color: rgb(252, 183, 215);
+            color: $colorPrincipal;
+        }
+    }
+    .mapa{
+        display: inline-block;
+        justify-content: center;
+        margin-top: 40px;
+    }
+}
