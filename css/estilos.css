@@ -23,6 +23,42 @@ header .navbar .nav-link {
 }
 
 /*mediaqueries del header*/
+@media screen and (min-width: 0px) and (max-width: 768px) {
+  .header {
+    background-color: 0;
+    height: 30%;
+  }
+  .header .navbar {
+    background-color: rgb(251, 229, 238);
+    color: black;
+    font-size: 1rem;
+  }
+  .header .navbar .logo {
+    width: 200px;
+  }
+  .header .nav-link {
+    font-size: 1rem;
+    font-family: "Martel", serif;
+  }
+}
+@media screen and (min-width: 1025px) {
+  .header {
+    background-color: rgb(251, 229, 238);
+    height: 30%;
+  }
+  .header .navbar {
+    background-color: rgb(251, 229, 238);
+    color: black;
+    font-size: 1.5rem;
+  }
+  .header .navbar .logo {
+    width: 200px;
+  }
+  .header .navbar .nav-link {
+    font-size: 1.5rem;
+    font-family: "Martel", serif;
+  }
+}
 Main {
   background-color: rgb(251, 229, 238);
 }
@@ -257,18 +293,39 @@ Main .contenedorGaleria {
   gap: 10px;
 }
 Main .contenedorGaleria .fotosCata {
-  width: 30%;
   background-color: rgb(253, 253, 253);
   /* border: 1px solid rgb(149, 34, 92);*/
   text-align: center;
   padding: 10px;
 }
 Main .contenedorGaleria .fotosCata img {
-  width: 100%;
+  width: 400px;
   height: 500px;
   object-fit: cover;
 }
 
+@media screen and (max-width: 768px) {
+  .tituloPrincipal {
+    width: 100%;
+    height: 20vh;
+    margin: 0 auto;
+    text-align: center;
+    background-color: rgb(149, 34, 92);
+    color: white;
+  }
+  .contenedorGaleria {
+    background-color: rgb(253, 253, 253);
+  }
+  .contenedorGaleria .fotosCata {
+    background-color: rgb(253, 253, 253);
+    text-align: center;
+    padding: 10px;
+  }
+  .contenedorGaleria .fotosCata img {
+    display: block;
+    width: 100%;
+  }
+}
 Main {
   background-color: rgb(251, 229, 238);
 }

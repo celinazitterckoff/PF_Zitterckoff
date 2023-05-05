@@ -25,11 +25,13 @@ main{
     grid-area: main;
 }
 
+
 footer{
     text-align: center;
     font-size: 2rem;
     grid-area: footer;
 }
+
 
 
 /*media queries VERSION CELULARES*/

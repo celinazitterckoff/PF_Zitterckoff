@@ -16,5 +16,42 @@ header{
     }
 }
 
-
 /*mediaqueries del header*/
+@media screen and (min-width: 0px) and (max-width:768px) {
+    .header{
+        background-color: red($color: #000000);
+        height: 30%;
+        .navbar{
+            background-color: $colorDeFondo;
+            color: black;
+            font-size: 1rem;
+            .logo{
+                width: 200px;
+            }
+        }
+        .nav-link{
+            font-size: 1rem;
+            font-family: 'Martel', serif;
+    }
+}
+}
+
+@media screen and (min-width: 1025px){
+    .header{
+        background-color: $colorDeFondo;
+        height: 30%;
+        .navbar{
+            background-color: $colorDeFondo;
+            color: black;
+            font-size: 1.5rem;
+            .logo{
+                width: 200px;
+            }
+        .nav-link{
+            font-size: 1.5rem;
+            font-family: 'Martel', serif;
+        }
+        }
+}
+}
+
