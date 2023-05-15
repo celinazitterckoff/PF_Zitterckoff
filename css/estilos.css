@@ -26,7 +26,7 @@ header .navbar .nav-link {
 @media screen and (min-width: 0px) and (max-width: 768px) {
   .header {
     background-color: 0;
-    height: 30%;
+    height: 40%;
   }
   .header .navbar {
     background-color: rgb(251, 229, 238);
@@ -112,7 +112,7 @@ Main .tarjetas .card-group .card {
 }
 Main .tarjetas .card-group .card .card-title {
   text-align: center;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Martel", serif;
   color: rgb(149, 34, 92);
 }
 
@@ -164,6 +164,55 @@ Main .contenedorImg .imgSer {
   margin: 10px;
 }
 
+@media screen and (max-width: 768px) {
+  Main {
+    background-color: rgb(251, 229, 238);
+  }
+  Main .tituloPrincipal {
+    width: 100%;
+    height: 20vh;
+    margin: 0 auto;
+    text-align: center;
+    background-color: rgb(149, 34, 92);
+    color: white;
+  }
+  Main .tituloPrincipal .contenedorH1 {
+    width: 0 auto;
+    padding-top: 30px;
+    font-size: 2rem;
+    color: rgb(255, 254, 254);
+    text-align: center;
+    font-family: "Martel", serif;
+  }
+  Main .contenedorSer {
+    width: 100%;
+    height: 100%;
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+  }
+  Main .accordion-button {
+    background-color: rgb(149, 34, 92);
+    border: 1px solid black;
+    color: rgb(237, 223, 223);
+    font-size: 1.5rem;
+    font-family: "Martel", serif;
+  }
+  Main .accordion-body {
+    background-color: rgb(244, 194, 213);
+    color: rgb(0, 0, 0);
+    border: 1px black solid;
+  }
+  Main .contenedorImg {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  Main .contenedorImg .imgSer {
+    width: 40%;
+    margin: 10px;
+  }
+}
 main {
   background-color: rgb(251, 229, 238);
 }
@@ -214,6 +263,7 @@ main .row .izquierda2 {
   background-position: center;
   height: 60vh;
   width: 80vh;
+  margin-top: 30px;
 }
 main .row .derecha2 {
   height: 60vh;
@@ -225,6 +275,7 @@ main .row .derecha2 {
   align-items: center;
   justify-content: center;
   border: 1px solid rgb(149, 34, 92);
+  margin-top: 30px;
 }
 main .row .izquierda3 {
   background-image: url(../assets/img/promo4.jpeg);
@@ -265,6 +316,16 @@ main .row .derecha4 {
   border: 1px solid rgb(149, 34, 92);
 }
 
+@media screen and (min-width: 0px) and (max-width: 768px) {
+  .tituloPrincipal {
+    width: 100%;
+    height: 30vh;
+    margin: 0 auto;
+    text-align: center;
+    background-color: rgb(149, 34, 92);
+    color: white;
+  }
+}
 Main {
   background-color: rgb(251, 229, 238);
 }
@@ -375,6 +436,7 @@ footer .parrafoFooter {
   position: relative;
   bottom: -60px;
   text-align: center;
+  font-family: "Martel", serif;
 }
 footer .icon {
   color: rgb(240, 199, 216);

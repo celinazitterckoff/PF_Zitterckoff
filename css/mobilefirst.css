@@ -60,6 +60,5 @@ footer{
         grid-template-areas:"header"
                             "main"
                             "footer";
-
-                                }
+    }                
 }
