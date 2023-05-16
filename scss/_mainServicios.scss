@@ -67,11 +67,11 @@
             }
             }
             .contenedorSer{
-                width: $ancho;
+                width: 700px;
                 height: 100%;
-                margin: 20px auto;
+                margin-left: 10px;
                 display: flex;
-                justify-content: center;
+                justify-content: left;
             }
             .accordion-button{
                 background-color: $colorPrincipal;
@@ -90,7 +90,7 @@
                 display: flex;
                 justify-content: center;
                 .imgSer{
-                width:40%;
+                width:90%;
                 margin: 10px;
                 }
             }

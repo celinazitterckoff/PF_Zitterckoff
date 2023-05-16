@@ -188,11 +188,11 @@ Main .contenedorImg .imgSer {
     font-family: "Martel", serif;
   }
   Main .contenedorSer {
-    width: 100%;
+    width: 700px;
     height: 100%;
-    margin: 20px auto;
+    margin-left: 10px;
     display: flex;
-    justify-content: center;
+    justify-content: left;
   }
   Main .accordion-button {
     background-color: rgb(149, 34, 92);
@@ -212,7 +212,7 @@ Main .contenedorImg .imgSer {
     justify-content: center;
   }
   Main .contenedorImg .imgSer {
-    width: 40%;
+    width: 90%;
     margin: 10px;
   }
 }
