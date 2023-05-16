@@ -103,14 +103,23 @@ main{
 }
 
 @media screen and (min-width: 0px) and (max-width:768px) {
-    .tituloPrincipal{
+    main{
+        background-color: $colorDeFondo;
+        .tituloPrincipal{
         width: $ancho;
-        height: 30vh;
         margin: 0 auto;
         text-align: center;
         background-color:$colorPrincipal;
-        color:white;
-
+        color: rgb(96, 20, 20);
+            .contenedorH1{
+            width: 0 auto;
+            padding-top: 30px;
+            font-size: 2rem;
+            color: rgb(255, 254, 254);
+            text-align: center;
+            font-family: $fuentePrincipal;
+        }
+        }
     }
 
 }
