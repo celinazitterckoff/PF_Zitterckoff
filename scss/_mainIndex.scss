@@ -25,11 +25,9 @@ Main{
         height: 50vh;
         width: 100vh;
         color: black;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
         margin-bottom: 2rem;
+        @include flexbox(center,center,column)
+        
         }
         /*
         .fotoIndex{
