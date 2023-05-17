@@ -22,14 +22,14 @@ Main{
         text-align: center;
         font-size: 1rem;
         font-family: $fuentePrincipal;
-        height: 70vh;
+        height: 50vh;
         width: 100vh;
         color: black;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        margin-bottom: 5rem;
+        margin-bottom: 2rem;
         }
         /*
         .fotoIndex{
@@ -60,3 +60,24 @@ Main{
         }
     }
 
+@media screen and (max-width: 768px){
+        Main{
+            background-color: $colorDeFondo;
+            .tituloPrincipal{
+            width: $ancho;
+            height: 25vh;
+            margin: 0 auto;
+            text-align: center;
+            background-color:$colorPrincipal;
+            color: white;
+                .contenedorH1{
+                width: 0 auto;
+                padding-top: 30px;
+                font-size: 2rem;
+                color: rgb(255, 254, 254);
+                text-align: center;
+                font-family: $fuentePrincipal;
+                }
+            }
+    }
+}

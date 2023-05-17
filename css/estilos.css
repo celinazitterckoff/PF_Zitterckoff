@@ -95,14 +95,14 @@ Main .fondoMain .textoIndex {
   text-align: center;
   font-size: 1rem;
   font-family: "Martel", serif;
-  height: 70vh;
+  height: 50vh;
   width: 100vh;
   color: black;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-bottom: 5rem;
+  margin-bottom: 2rem;
 }
 Main .tarjetas {
   margin-bottom: 4rem;
@@ -120,6 +120,27 @@ Main .tarjetas .card-group .card .card-title {
   color: rgb(149, 34, 92);
 }
 
+@media screen and (max-width: 768px) {
+  Main {
+    background-color: rgb(251, 229, 238);
+  }
+  Main .tituloPrincipal {
+    width: 100%;
+    height: 25vh;
+    margin: 0 auto;
+    text-align: center;
+    background-color: rgb(149, 34, 92);
+    color: white;
+  }
+  Main .tituloPrincipal .contenedorH1 {
+    width: 0 auto;
+    padding-top: 30px;
+    font-size: 2rem;
+    color: rgb(255, 254, 254);
+    text-align: center;
+    font-family: "Martel", serif;
+  }
+}
 Main {
   background-color: rgb(251, 229, 238);
 }
@@ -240,15 +261,16 @@ main .row {
   margin-top: 30px;
   margin-bottom: 30px;
 }
-main .row .izquierda {
+main .row .izquierda, main .row .izquierda4, main .row .izquierda3, main .row .izquierda2 {
   background-image: url(../assets/img/tratam4.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   height: 60vh;
   width: 80vh;
+  margin-top: 30px;
 }
-main .row .derecha {
+main .row .derecha, main .row .derecha4, main .row .derecha3, main .row .derecha2 {
   height: 60vh;
   width: 80vh;
   background-color: rgb(220, 181, 193);
@@ -258,67 +280,17 @@ main .row .derecha {
   align-items: center;
   justify-content: center;
   border: 1px solid rgb(149, 34, 92);
+  margin-top: 30px;
 }
 main .row .izquierda2 {
   background-image: url(../assets/img/promo3.jpeg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  height: 60vh;
-  width: 80vh;
-  margin-top: 30px;
-}
-main .row .derecha2 {
-  height: 60vh;
-  width: 80vh;
-  background-color: rgb(220, 181, 193);
-  color: rgb(149, 34, 92);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  border: 1px solid rgb(149, 34, 92);
-  margin-top: 30px;
 }
 main .row .izquierda3 {
   background-image: url(../assets/img/promo4.jpeg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  height: 60vh;
-  width: 80vh;
-}
-main .row .derecha3 {
-  height: 60vh;
-  width: 80vh;
-  background-color: rgb(220, 181, 193);
-  color: rgb(149, 34, 92);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  border: 1px solid rgb(149, 34, 92);
 }
 main .row .izquierda4 {
   background-image: url(../assets/img/promo5.jpeg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  height: 60vh;
-  width: 80vh;
 }
-main .row .derecha4 {
-  height: 60vh;
-  width: 80vh;
-  background-color: rgb(220, 181, 193);
-  color: rgb(149, 34, 92);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  border: 1px solid rgb(149, 34, 92);
-}
-
 @media screen and (min-width: 0px) and (max-width: 768px) {
   main {
     background-color: rgb(251, 229, 238);
@@ -343,15 +315,16 @@ main .row .derecha4 {
     margin-top: 30px;
     margin-bottom: 30px;
   }
-  main .row .izquierda {
+  main .row .izquierda, main .row .izquierda2, main .row .izquierda3, main .row .izquierda4 {
     background-image: url(../assets/img/tratam4.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     height: 60vh;
     width: 80vh;
+    margin-top: 30px;
   }
-  main .row .derecha {
+  main .row .derecha, main .row .derecha2, main .row .derecha3, main .row .derecha4 {
     height: 60vh;
     width: 80vh;
     background-color: rgb(220, 181, 193);

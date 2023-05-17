@@ -27,6 +27,7 @@ main{
             background-position: center;
             height: 60vh;
             width: 80vh;
+            margin-top: 30px;
         }
         .derecha{
             height: 60vh;
@@ -38,65 +39,30 @@ main{
             align-items: center;
             justify-content: center;
             border:map-get($map: $bordes, $key: border-principal );
+            margin-top: 30px;
         }
         .izquierda2{
+            @extend .izquierda;
             background-image: url(../assets/img/promo3.jpeg);
-            background-repeat: no-repeat;
-            background-size: cover;
-            background-position: center;
-            height: 60vh;
-            width: 80vh;
-            margin-top: 30px;
+            
         }
         .derecha2{
-            height: 60vh;
-            width: 80vh;
-            background-color: rgb(220, 181, 193);
-            color: rgb(149, 34, 92);
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            border:map-get($map: $bordes, $key: border-principal );
-            margin-top: 30px;
+            @extend .derecha;
         }
         .izquierda3{
+            @extend .izquierda;
             background-image: url(../assets/img/promo4.jpeg);
-            background-repeat: no-repeat;
-            background-size: cover;
-            background-position: center;
-            height: 60vh;
-            width: 80vh;
         }
         .derecha3{
-            height: 60vh;
-            width: 80vh;
-            background-color: rgb(220, 181, 193);
-            color: rgb(149, 34, 92);
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            border:map-get($map: $bordes, $key: border-principal );
+            @extend .derecha;
         }
         .izquierda4{
+            @extend .izquierda;
             background-image: url(../assets/img/promo5.jpeg);
-            background-repeat: no-repeat;
-            background-size: cover;
-            background-position: center;
-            height: 60vh;
-            width: 80vh;
+            
         }
         .derecha4{
-            height: 60vh;
-            width: 80vh;;
-            background-color: rgb(220, 181, 193);
-            color: rgb(149, 34, 92);
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            border:map-get($map: $bordes, $key: border-principal );
+            @extend .derecha;
         }
     }
     
@@ -131,6 +97,7 @@ main{
                 background-position: center;
                 height: 60vh;
                 width: 80vh;
+                margin-top: 30px;
             }
             .derecha{
                 height: 60vh;
