@@ -120,6 +120,91 @@ main{
             font-family: $fuentePrincipal;
         }
         }
+        .row{
+            justify-content: center;
+            margin-top: 30px;
+            margin-bottom: 30px;
+            .izquierda{
+                background-image: url(../assets/img/tratam4.jpeg);
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: center;
+                height: 60vh;
+                width: 80vh;
+            }
+            .derecha{
+                height: 60vh;
+                width: 80vh;
+                background-color: rgb(220, 181, 193);
+                color: rgb(149, 34, 92);
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                border: 1px solid rgb(149, 34, 92);
+            }
+            .izquierda2{
+                background-image: url(../assets/img/promo3.jpeg);
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: center;
+                height: 60vh;
+                width: 80vh;
+                margin-top: 30px;
+            }
+            .derecha2{
+                height: 60vh;
+                width: 80vh;
+                background-color: rgb(220, 181, 193);
+                color: rgb(149, 34, 92);
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                border: 1px solid rgb(149, 34, 92);
+                margin-top: 30px;
+            }
+            .izquierda3{
+                background-image: url(../assets/img/promo4.jpeg);
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: center;
+                height: 60vh;
+                width: 80vh;
+                margin-top: 30px;
+            }
+            .derecha3{
+                height: 60vh;
+                width: 80vh;
+                background-color: rgb(220, 181, 193);
+                color: rgb(149, 34, 92);
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                border: 1px solid rgb(149, 34, 92);
+            }
+            .izquierda4{
+                background-image: url(../assets/img/promo5.jpeg);
+                background-repeat: no-repeat;
+                background-size: cover;
+                background-position: center;
+                height: 60vh;
+                width: 90vh;
+                margin-top: 30px;
+            }
+            .derecha4{
+                height: 60vh;
+                width: 80vh;
+                background-color: rgb(220, 181, 193);
+                color: rgb(149, 34, 92);
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                border: 1px solid rgb(149, 34, 92);
+            }
+        }
     }
 
 }

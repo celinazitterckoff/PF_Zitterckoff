@@ -17,3 +17,26 @@ footer{
         bottom: -65px;
     }
 }
+
+
+@media screen and (max-width: 768px){
+    footer{
+        height: 30vh;
+        background-color:rgb(149, 34, 92);
+        text-align: center;
+        .parrafoFooter{
+            font-size: 1rem;
+            color: rgb(251, 229, 238);
+            position: relative;
+            bottom: -60px;
+            text-align: center;
+            font-family: $fuentePrincipal
+        }
+        .icon{
+            color: rgb(240, 199, 216);
+            font-size: 25px;
+            position: relative;
+            bottom: -65px;
+        }
+    }
+}
