@@ -1,3 +1,4 @@
+/*maps*/
 * {
   margin: 0;
   padding: 0;
@@ -515,6 +516,7 @@ Main .formulario {
 Main .formulario .btn {
   background-color: rgb(252, 183, 215);
   color: rgb(149, 34, 92);
+  border: black;
 }
 Main .mapa {
   display: inline-block;
