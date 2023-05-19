@@ -126,7 +126,7 @@ Main .tarjetas .card-group .card .card-title {
   }
   Main .tituloPrincipal {
     width: 100%;
-    height: 25vh;
+    height: 20vh;
     margin: 0 auto;
     text-align: center;
     background-color: rgb(149, 34, 92);
@@ -458,10 +458,10 @@ Main .contenedorGaleria .fotosCata img {
     width: 100%;
   }
 }
-Main {
+.mainContacto {
   background-color: rgb(251, 229, 238);
 }
-Main .tituloPrincipal {
+.mainContacto .tituloPrincipal {
   width: 100%;
   height: 20vh;
   margin: 0 auto;
@@ -469,7 +469,7 @@ Main .tituloPrincipal {
   background-color: rgb(149, 34, 92);
   color: white;
 }
-Main .tituloPrincipal .contenedorH1 {
+.mainContacto .tituloPrincipal .contenedorH1 {
   width: 0 auto;
   padding-top: 30px;
   font-size: 2rem;
@@ -477,21 +477,21 @@ Main .tituloPrincipal .contenedorH1 {
   text-align: center;
   font-family: "Martel", serif;
 }
-Main .padreContacto {
+.mainContacto .padreContacto {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
 }
-Main .formulario {
+.mainContacto .formulario {
   display: inline-block;
   margin-bottom: 2rem;
 }
-Main .formulario .btn {
+.mainContacto .formulario .btn {
   background-color: rgb(252, 183, 215);
   color: rgb(149, 34, 92);
   border: black;
 }
-Main .mapa {
+.mainContacto .mapa {
   display: inline-block;
   justify-content: center;
   margin-top: 40px;
