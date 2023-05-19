@@ -19,25 +19,16 @@ Main{
     .fondoMain{
         .textoIndex{
         text-align: center;
-        font-size: 1rem;
+        font-size: 1.2rem;
         font-family: $fuentePrincipal;
         height: 50vh;
-        width: 100vh;
+        width: 130vh;
         color: black;
         margin-bottom: 2rem;
         @include flexbox(center,center,column)
         
         }
-        /*
-        .fotoIndex{
-        background-image: url;
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
-        height: 60vh;
-        width: 100vh ;
-        margin-bottom: 8rem;
-        }*/
+        
     }
     .tarjetas{
         margin-bottom: 4rem;
@@ -45,7 +36,7 @@ Main{
         .card-group{
             column-gap: 15px;
             .card{
-            background-color:rgb(220, 181, 193) ;
+            background-color:rgb(243, 201, 213) ;
             border: 1px solid rgb(192, 121, 157);
                 .card-title{
                 text-align: center;

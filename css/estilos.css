@@ -79,24 +79,12 @@ Main .tituloPrincipal .contenedorH1 {
   text-align: center;
   font-family: "Martel", serif;
 }
-Main .fondoMain {
-  /*
-  .fotoIndex{
-  background-image: url;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  height: 60vh;
-  width: 100vh ;
-  margin-bottom: 8rem;
-  }*/
-}
 Main .fondoMain .textoIndex {
   text-align: center;
-  font-size: 1rem;
+  font-size: 1.2rem;
   font-family: "Martel", serif;
   height: 50vh;
-  width: 100vh;
+  width: 130vh;
   color: black;
   margin-bottom: 2rem;
   display: flex;
@@ -111,7 +99,7 @@ Main .tarjetas .card-group {
   column-gap: 15px;
 }
 Main .tarjetas .card-group .card {
-  background-color: rgb(220, 181, 193);
+  background-color: rgb(243, 201, 213);
   border: 1px solid rgb(192, 121, 157);
 }
 Main .tarjetas .card-group .card .card-title {
@@ -416,6 +404,22 @@ Main .tituloPrincipal .contenedorH1 {
   text-align: center;
   font-family: "Martel", serif;
 }
+Main .subtituloGaleria {
+  width: 100%;
+  height: 25vh;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 1.5rem;
+  background-color: rgb(251, 229, 238);
+}
+Main .subtituloGaleria .contenedorH2 {
+  width: 0 auto;
+  font-size: 1.5rem;
+  padding-top: 20px;
+  color: rgb(149, 34, 92);
+  font-family: "Martel", serif;
+  text-align: center;
+}
 Main .contenedorGaleria {
   background-color: rgb(251, 229, 238);
   display: flex;
@@ -437,7 +441,10 @@ Main .contenedorGaleria .fotosCata img {
 }
 
 @media screen and (max-width: 768px) {
-  .tituloPrincipal {
+  Main {
+    background-color: rgb(251, 229, 238);
+  }
+  Main .tituloPrincipal {
     width: 100%;
     height: 20vh;
     margin: 0 auto;
@@ -445,17 +452,47 @@ Main .contenedorGaleria .fotosCata img {
     background-color: rgb(149, 34, 92);
     color: white;
   }
-  .contenedorGaleria {
-    background-color: rgb(253, 253, 253);
+  Main .tituloPrincipal .contenedorH1 {
+    width: 0 auto;
+    padding-top: 30px;
+    font-size: 2rem;
+    color: rgb(255, 254, 254);
+    text-align: center;
+    font-family: "Martel", serif;
   }
-  .contenedorGaleria .fotosCata {
+  Main .subtituloGaleria {
+    width: 100%;
+    height: 30vh;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 1.5rem;
+    background-color: rgb(251, 229, 238);
+  }
+  Main .subtituloGaleria .contenedorH2 {
+    width: 100%;
+    font-size: 1.5rem;
+    color: rgb(149, 34, 92);
+    font-family: "Martel", serif;
+    text-align: center;
+  }
+  Main .contenedorGaleria {
+    background-color: rgb(251, 229, 238);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+  Main .contenedorGaleria .fotosCata {
     background-color: rgb(253, 253, 253);
+    /* border: 1px solid rgb(149, 34, 92);*/
     text-align: center;
     padding: 10px;
   }
-  .contenedorGaleria .fotosCata img {
-    display: block;
-    width: 100%;
+  Main .contenedorGaleria .fotosCata img {
+    width: 400px;
+    height: 500px;
+    object-fit: cover;
   }
 }
 .mainContacto {

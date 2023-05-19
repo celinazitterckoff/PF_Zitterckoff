@@ -16,6 +16,22 @@ Main{
         font-family: $fuentePrincipal;
     }
     }
+    .subtituloGaleria{
+        width: $ancho;
+        height: 25vh;
+        margin: 0 auto;
+        text-align: center;
+        font-size: 1.5rem;
+        background-color: $colorDeFondo;
+        .contenedorH2{
+            width: 0 auto;
+            font-size: 1.5rem;
+            padding-top: 20px;
+            color: $colorPrincipal;
+            font-family: $fuentePrincipal;
+            text-align: center;
+        }
+    }
     .contenedorGaleria{
         background-color: rgb(251, 229, 238);
         display: flex;
@@ -40,24 +56,56 @@ Main{
 
 
 @media screen and (max-width: 768px){
-    .tituloPrincipal{
+    Main{
+        background-color: $colorDeFondo;
+        .tituloPrincipal{
         width: $ancho;
         height: 20vh;
         margin: 0 auto;
         text-align: center;
         background-color:$colorPrincipal;
         color: white;
-    }
-    .contenedorGaleria{
-        background-color:rgb(253, 253, 253);
-        .fotosCata{
-            background-color: rgb(253, 253, 253);
+            .contenedorH1{
+            width: 0 auto;
+            padding-top: 30px;
+            font-size: 2rem;
+            color: rgb(255, 254, 254);
             text-align: center;
-            padding: 10px;
+            font-family: $fuentePrincipal;
         }
-        .fotosCata img{
-            display: block;
-            width: 100%;
+        }
+        .subtituloGaleria{
+            width: $ancho;
+            height: 30vh;
+            margin: 0 auto;
+            text-align: center;
+            font-size: 1.5rem;
+            background-color: $colorDeFondo;
+            .contenedorH2{
+                width: $ancho;
+                font-size: 1.5rem;               color: $colorPrincipal;
+                font-family: $fuentePrincipal;
+                text-align: center;
+            }
+        }
+        .contenedorGaleria{
+            background-color: rgb(251, 229, 238);
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+            .fotosCata{
+                background-color: rgb(253, 253, 253);
+                /* border: 1px solid rgb(149, 34, 92);*/
+                text-align: center;
+                padding: 10px;
+            }
+            .fotosCata img{
+                width: 400px;
+                height: 500px;
+                object-fit: cover;
+            }
         }
     }
 }
