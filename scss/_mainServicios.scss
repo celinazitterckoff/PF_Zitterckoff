@@ -16,6 +16,7 @@
             font-family: $fuentePrincipal;
         }
         }
+        
         .contenedorSer{
             width: $ancho;
             height: 100%;
@@ -66,10 +67,9 @@
                 font-family: $fuentePrincipal;
             }
             }
+            /*
             .contenedorSer{
-                width: 700px;
-                height: 100%;
-                margin-left: 10px;
+                width: 60vh;
                 display: flex;
                 justify-content: left;
             }
@@ -84,7 +84,8 @@
                 background-color: rgb(244, 194, 213);
                 color: rgb(0, 0, 0);
                 border: 1px black solid;
-            }
+            }*/
+            
             .contenedorImg{
                 width: $ancho;
                 display: flex;

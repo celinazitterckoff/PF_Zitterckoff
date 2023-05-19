@@ -10,7 +10,7 @@ Main{
         .contenedorH1{
         width: 0 auto;
         padding-top: 30px;
-        font-size: 2rem;
+        font-size: 1rem;
         color: rgb(255, 254, 254);
         text-align: center;
         font-family: $fuentePrincipal;
@@ -19,10 +19,10 @@ Main{
     .fondoMain{
         .textoIndex{
         text-align: center;
-        font-size: 1.2rem;
+        font-size: 1rem;
         font-family: $fuentePrincipal;
         height: 50vh;
-        width: 130vh;
+        width: 100vh;
         color: black;
         margin-bottom: 2rem;
         @include flexbox(center,center,column)
@@ -61,7 +61,7 @@ Main{
                 .contenedorH1{
                 width: 0 auto;
                 padding-top: 30px;
-                font-size: 2rem;
+                font-size: 1rem;
                 color: rgb(255, 254, 254);
                 text-align: center;
                 font-family: $fuentePrincipal;
