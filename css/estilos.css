@@ -148,12 +148,8 @@ Main .tituloPrincipal .contenedorH1 {
   text-align: center;
   font-family: "Martel", serif;
 }
-Main .contenedorSer {
-  width: 100%;
-  height: 100%;
-  margin: 20px auto;
-  display: flex;
-  justify-content: center;
+Main .accordion {
+  margin: 40px;
 }
 Main .accordion-button {
   background-color: rgb(149, 34, 92);
@@ -180,24 +176,6 @@ Main .contenedorImg .imgSer {
 @media screen and (max-width: 768px) {
   Main {
     background-color: rgb(251, 229, 238);
-    /*
-    .contenedorSer{
-        width: 60vh;
-        display: flex;
-        justify-content: left;
-    }
-    .accordion-button{
-        background-color: $colorPrincipal;
-        border: 1px solid black;
-        color: rgb(237, 223, 223);
-        font-size: 1.5rem;  
-        font-family: $fuentePrincipal;         
-    }
-    .accordion-body{
-        background-color: rgb(244, 194, 213);
-        color: rgb(0, 0, 0);
-        border: 1px black solid;
-    }*/
   }
   Main .tituloPrincipal {
     width: 100%;
@@ -214,6 +192,18 @@ Main .contenedorImg .imgSer {
     color: rgb(255, 254, 254);
     text-align: center;
     font-family: "Martel", serif;
+  }
+  Main .accordion-button {
+    background-color: rgb(149, 34, 92);
+    border: 1px solid black;
+    color: rgb(237, 223, 223);
+    font-size: 1.5rem;
+    font-family: "Martel", serif;
+  }
+  Main .accordion-body {
+    background-color: rgb(244, 194, 213);
+    color: rgb(0, 0, 0);
+    border: 1px black solid;
   }
   Main .contenedorImg {
     width: 100%;
@@ -468,7 +458,7 @@ Main .contenedorGaleria .fotosCata img {
   }
   Main .subtituloGaleria .contenedorH2 {
     width: 100%;
-    font-size: 1.5rem;
+    font-size: 1rem;
     color: rgb(149, 34, 92);
     font-family: "Martel", serif;
     text-align: center;
@@ -532,6 +522,13 @@ Main .contenedorGaleria .fotosCata img {
   margin-top: 40px;
 }
 
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .mapa {
+    display: inline-block;
+    justify-content: center;
+    margin-top: 40px;
+  }
+}
 @media screen and (max-width: 768px) {
   Main {
     background-color: rgb(251, 229, 238);
@@ -565,6 +562,11 @@ Main .contenedorGaleria .fotosCata img {
   Main .formulario .btn {
     background-color: rgb(252, 183, 215);
     color: rgb(149, 34, 92);
+  }
+  Main .mapa {
+    display: inline-block;
+    justify-content: center;
+    margin-top: 40px;
   }
 }
 footer {

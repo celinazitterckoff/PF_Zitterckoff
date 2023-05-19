@@ -16,13 +16,9 @@
             font-family: $fuentePrincipal;
         }
         }
+        .accordion{
+            margin: 40px;
         
-        .contenedorSer{
-            width: $ancho;
-            height: 100%;
-            margin: 20px auto;
-            display: flex;
-            justify-content: center;
         }
         .accordion-button{
             background-color: $colorPrincipal;
@@ -65,13 +61,7 @@
                 color: rgb(255, 254, 254);
                 text-align: center;
                 font-family: $fuentePrincipal;
-            }
-            }
-            /*
-            .contenedorSer{
-                width: 60vh;
-                display: flex;
-                justify-content: left;
+                }
             }
             .accordion-button{
                 background-color: $colorPrincipal;
@@ -84,7 +74,7 @@
                 background-color: rgb(244, 194, 213);
                 color: rgb(0, 0, 0);
                 border: 1px black solid;
-            }*/
+            }
             
             .contenedorImg{
                 width: $ancho;

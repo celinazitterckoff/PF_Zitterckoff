@@ -38,6 +38,18 @@
     }
 }
 
+
+@media screen and (min-width: 320px) and (max-width:768px) {
+    .mapa{
+        display: inline-block;
+        justify-content: center;
+        margin-top: 40px;
+    }
+    
+}
+
+
+
 @media screen and (max-width: 768px){
     Main{
         background-color: $colorDeFondo;
@@ -70,6 +82,11 @@
                 background-color: rgb(252, 183, 215);
                 color: $colorPrincipal;
             }
+        }
+        .mapa{
+            display: inline-block;
+            justify-content: center;
+            margin-top: 40px;
         }
     }
 
