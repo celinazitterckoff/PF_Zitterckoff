@@ -1,0 +1,14 @@
+Main{
+    height:70%;
+    .tituloError{
+    width: $ancho;
+    height: 20vh;
+    margin: 0 auto;
+    text-align: center;
+    background-color:$colorPrincipal;
+    }
+        .imgError{
+            width: 300px;
+            height: 300px;
+        }
+}
