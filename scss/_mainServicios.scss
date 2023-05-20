@@ -21,9 +21,9 @@
         
         }
         .accordion-button{
-            background-color: $colorPrincipal;
+            background-color: rgb(247, 176, 199);
             border: 1px solid black;
-            color: rgb(237, 223, 223);
+            color: $colorPrincipal;
             font-size: 1.5rem;  
             font-family: $fuentePrincipal;         
         }
