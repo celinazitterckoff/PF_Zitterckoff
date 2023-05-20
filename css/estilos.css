@@ -418,7 +418,7 @@ Main .contenedorGaleria {
   gap: 10px;
 }
 Main .contenedorGaleria .fotosCata {
-  background-color: rgb(253, 253, 253);
+  background-color: rgb(245, 204, 211);
   /* border: 1px solid rgb(149, 34, 92);*/
   text-align: center;
   padding: 10px;
@@ -429,7 +429,7 @@ Main .contenedorGaleria .fotosCata img {
   object-fit: cover;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 320px) and (max-width: 768px) {
   Main {
     background-color: rgb(251, 229, 238);
   }
@@ -478,8 +478,8 @@ Main .contenedorGaleria .fotosCata img {
     padding: 10px;
   }
   Main .contenedorGaleria .fotosCata img {
-    width: 400px;
-    height: 500px;
+    width: 300px;
+    height: 400px;
     object-fit: cover;
   }
 }
